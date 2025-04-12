@@ -6,7 +6,10 @@ chmod +x unlock-session.sh
 # enable passwordless authentication ()
 # bash
 sudo visudo
+
 #add this line 
+
+
 yourusername ALL=(ALL) NOPASSWD: /usr/bin/loginctl
 
 that's all 
